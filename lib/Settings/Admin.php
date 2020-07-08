@@ -24,7 +24,7 @@
  */
 
 
-namespace OCA\BreezeDark\Settings;
+namespace OCA\NWV-v1\Settings;
 
 use OCP\Settings\ISettings;
 use OCP\AppFramework\Http\TemplateResponse;
