@@ -24,7 +24,7 @@
  */
 
 
-namespace OCA\BreezeDark\Controller;
+namespace OCA\NWV-v1\Controller;
 
 use OCP\AppFramework\Controller;
 use OCP\IConfig;
