@@ -53,7 +53,7 @@ class Admin implements ISettings {
      */
     public function getForm() {
         $themeEnabled = $this->config->getAppValue($this->appName, 'theme_enabled', "0");
-        return new TemplateResponse('breezedark', 'admin', [ 
+        return new TemplateResponse('nwv-v1', 'admin', [ 
             "themeEnabled" => $themeEnabled
         ]);
     }
