@@ -24,7 +24,7 @@
  */
 
 
-namespace OCA\BreezeDark\AppInfo;
+namespace OCA\NWV-v1\AppInfo;
 
 use OCP\AppFramework\App;
 use OCP\IConfig;
@@ -34,7 +34,7 @@ use OCP\Util;
 class Application extends App {
 
     /** @var string */
-    public const APP_NAME = 'breezedark';
+    public const APP_NAME = 'nwv-v1';
 
     /** @var string */
     protected $appName;
