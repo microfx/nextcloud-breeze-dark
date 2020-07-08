@@ -24,7 +24,7 @@
  */
 
 
-namespace OCA\BreezeDark\Settings;
+namespace OCA\NWV-v1\Settings;
 
 use OCP\Settings\ISettings;
 use OCP\AppFramework\Http\TemplateResponse;
@@ -61,7 +61,7 @@ class Personal implements ISettings {
     public function getForm() {
         $default = $this->config->getAppValue($this->appName, 'theme_enabled', "0");
         $themeEnabled = $this->config->getUserValue($this->userId, $this->appName, 'theme_enabled', $default);
-        return new TemplateResponse('breezedark', 'personal', [ 
+        return new TemplateResponse('nwv-v1', 'personal', [ 
             "themeEnabled" => $themeEnabled
         ]);
     }
