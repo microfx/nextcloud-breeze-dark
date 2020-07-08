@@ -24,7 +24,7 @@
 
 
 $(document).ready(function () {
-    $('#breezedark-enabled').change(function () {
-        $.post(OC.generateUrl('apps/breezedark/settings/admin'), ({theme_enabled: this.checked ? 1 : 0}));
+    $('#nwv-v1-enabled').change(function () {
+        $.post(OC.generateUrl('apps/nwv-v1/settings/admin'), ({theme_enabled: this.checked ? 1 : 0}));
     });
 });
