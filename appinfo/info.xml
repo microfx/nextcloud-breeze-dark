@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>breezedark</id>
-    <name>Breeze Dark</name>
+    <id>nwv</id>
+    <name>NWV</name>
     <summary><![CDATA[Breeze Dark theme for Nextcloud, based on the theme by KDE]]></summary>
     <description><![CDATA[
 # Breeze Dark
@@ -15,20 +15,20 @@ After you install the theme, you need to enable it. There a 2 options for this, 
 The global option enables the theme by default for all users and unauthenticated visits. Without this options stuff like the login and sharing pages won't be styled. You can find there global option here:
 
 ```
-Admin settings > Theming > Breeze Dark
+Admin settings > Theming > NWV
 ```
 
 #### Personal
 The personal option allows each user to set their own preference independent of how you set the global option. If the user hasn't set an option yet, they will follow the global option. You can find the personal option here:
 
 ```
-Personal settings > Accessibility > Breeze Dark
+Personal settings > Accessibility > NWV
 ```
     ]]></description>
     <version>19.0.2</version>
     <licence>agpl</licence>
     <author mail="mw@mwalbeck.org" homepage="https://github.com/mwalbeck/nextcloud-breeze-dark">Magnus Walbeck</author>
-    <namespace>BreezeDark</namespace>
+    <namespace>NWV</namespace>
     <category>customization</category>
     <website>https://github.com/mwalbeck/nextcloud-breeze-dark</website>
     <bugs>https://github.com/mwalbeck/nextcloud-breeze-dark/issues</bugs>
@@ -37,7 +37,7 @@ Personal settings > Accessibility > Breeze Dark
         <nextcloud min-version="19" max-version="19"/>
     </dependencies>
     <settings>
-        <personal>OCA\BreezeDark\Settings\Personal</personal>
-        <admin>OCA\BreezeDark\Settings\Admin</admin>
+        <personal>OCA\NWV\Settings\Personal</personal>
+        <admin>OCA\NWV\Settings\Admin</admin>
     </settings>
 </info>
