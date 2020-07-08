@@ -24,5 +24,5 @@
  */
 
 
-$app = new \OCA\BreezeDark\AppInfo\Application();
+$app = new \OCA\nwv-v1\AppInfo\Application();
 $app->doTheming();
